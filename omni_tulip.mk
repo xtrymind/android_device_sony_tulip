@@ -25,8 +25,7 @@ LOCAL_PATH := device/sony/tulip
 PRODUCT_PACKAGES += charger charger_res_images
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/dt.img:dt.img \
-    $(LOCAL_PATH)/kernel:kernel \
+    $(LOCAL_PATH)/Image.gz-dtb:kernel \
     $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom \
     $(LOCAL_PATH)/recovery/etc/twrp.fstab:root/etc/twrp.fstab
 
@@ -34,5 +33,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEVICE := tulip
 PRODUCT_NAME := omni_tulip
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Xperia M4 Aqua (AOSP)
+PRODUCT_MODEL := Xperia M4 Aqua
 PRODUCT_MANUFACTURER := Sony
