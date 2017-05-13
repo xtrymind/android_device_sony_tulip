@@ -25,7 +25,6 @@ LOCAL_PATH := device/sony/tulip
 PRODUCT_PACKAGES += charger charger_res_images
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/Image.gz-dtb:kernel \
     $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom \
     $(LOCAL_PATH)/recovery/etc/twrp.fstab:root/etc/twrp.fstab
 
