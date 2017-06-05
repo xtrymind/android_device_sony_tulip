@@ -53,7 +53,7 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 
 # TWRP Build Flags
-TARGET_RECOVERY_FSTAB := device/sony/tulip/recovery/etc/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/sony/tulip/twrp.fstab
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TW_INCLUDE_CRYPTO := true
