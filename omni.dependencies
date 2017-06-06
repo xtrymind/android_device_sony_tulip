@@ -3,6 +3,6 @@
     "remote":       "github",
     "repository":   "dani020110/kernel",
     "target_path":  "kernel/sony/tulip",
-    "revision":     "aosp/LA.BR.1.3.3_rb2.14"
+    "revision":     "twrp"
   }
 ]
