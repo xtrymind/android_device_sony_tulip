@@ -21,8 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 LOCAL_PATH := device/sony/tulip
 
-# Charger
-PRODUCT_PACKAGES += charger charger_res_images
+PRODUCT_PACKAGES += \
+	charger \
+	charger_res_images \
+	mkfs.f2fs \
+	fsck.f2fs \
+	fibmap.f2fs
+
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/fstab.tulip:root/fstab.tulip
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tulip
